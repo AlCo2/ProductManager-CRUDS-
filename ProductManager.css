@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background:#110934;
+    background:rgb(49, 4, 90);
     color: white;
     font-family: system-ui;
 }
@@ -15,7 +15,8 @@ body{
     text-align: center;
     text-transform: uppercase;
     margin: 10px 0;
-    background: #092834;
+    background: #030010;
+    font-family: Fantasy;
 }
 input{
     width: 100%;
@@ -38,7 +39,7 @@ input:focus{
 }
 #total{
     padding: 5px 2px;
-    background: #410341;
+    background: #030010;
     border-radius: 4px;
 }
 #total::before{
@@ -49,14 +50,14 @@ button{
     height: 30px;
     border: none;
     cursor: pointer;
-    background: #410341;
+    background:#030010;
     color: white;
     border-radius: 10px;
 }
 button:hover{
     transform: scale(103%);
     transition: 300ms ease-in-out;
-    background: #770677;
+    background:#d7088b ;
 }
 .btnsearch{
     display: flex;
@@ -78,4 +79,9 @@ th,td{
 }
 #deleteall{
     margin: 20px 0;
+}
+.co2{
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: underline;
 }

@@ -12,7 +12,7 @@ function totalcal(){
     if( price.value != ''){
         let result = (+price.value + +taxe.value) - +disc.value
         total.innerHTML = result
-        total.style.background = 'green'
+        total.style.background = '#d7088b'
     }else{
      total.innerHTML = ''   
      total.style.background = ''
